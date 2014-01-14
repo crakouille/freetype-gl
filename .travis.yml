@@ -1,8 +1,7 @@
 language: c
 compiler:
   - gcc
-install:
-  - pwd
+before_install:
   - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   - sudo apt-get update -qq
   - sudo apt-get install -qq gcc libglew-dev libfreetype* freeglut3-dev
@@ -17,7 +16,7 @@ install:
   - cd ~/
   - rm -rf AntTweakBar_116.zip
   - rm -rf AntTweakBar
-  - ls
+  - cd build/crakouille/freetype-gl
 
 script:
   - make
