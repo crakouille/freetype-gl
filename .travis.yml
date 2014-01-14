@@ -16,7 +16,7 @@ install:
   - cd ~/
   - rm -rf AntTweakBar_116.zip
   - rm -rf AntTweakBar
-  - pwd
+  - cd freetype-gl
 
 script:
   - make
