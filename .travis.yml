@@ -13,6 +13,7 @@ before_install:
   - make
   - sudo mv ../lib/libAntTweakBar.so /usr/lib/ 
   - sudo mv ../lib/libAntTweakBar.so.1 /usr/lib/
+  - sudo mv ../include/* /usr/include/
   - cd ~/
   - rm -rf AntTweakBar_116.zip
   - rm -rf AntTweakBar
